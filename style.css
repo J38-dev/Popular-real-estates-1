@@ -339,7 +339,7 @@ header{
 .logo img{
     width:180px;
     height:auto;
-    display:block;
+    display:none;
     object-fit:contain;
     image-rendering:auto;
   }
