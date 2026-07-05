@@ -306,25 +306,16 @@ p{
 ====================================================*/
 
 header{
-
     position:fixed;
-
     top:0;
-
     left:0;
-
     width:100%;
-
     z-index:1000;
-
-    background:rgba(255,255,255,.94);
-
-    backdrop-filter:blur(18px);
-
+    background:#ffffff;
+    backdrop-filter:none;
+    -webkit-backdrop-filter:none;
     border-bottom:1px solid rgba(0,0,0,.06);
-
     transition:all .35s ease;
-
 }
 
 .navbar{
@@ -346,12 +337,12 @@ header{
 }
 
 .logo img{
-
-    width:80px;
-
+    width:180px;
+    height:auto;
     display:block;
-
-}
+    object-fit:contain;
+    image-rendering:auto;
+  }
 
 .nav-links{
 
