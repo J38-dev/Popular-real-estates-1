@@ -326,7 +326,7 @@ header{
 
     padding:10px 20px;
 
-    display: inline;
+    display: flex;
 
     justify-content:space-between;
 
